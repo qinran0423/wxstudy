@@ -2,6 +2,8 @@
 // 获取应用实例
 const app = getApp()
 
+// console.log(app.num);
+
 Page({
   data: {
     motto: 'Hello World',
@@ -16,6 +18,12 @@ Page({
   bindViewTap() {
     wx.navigateTo({
       url: '../logs/logs'
+    })
+  },
+  gethome() {
+    console.log('xxx');
+    wx.navigateTo({
+      url: '../home/home'
     })
   },
   onLoad() {

@@ -15,5 +15,6 @@ App({
   },
   globalData: {
     userInfo: null
-  }
+  },
+  // num: 1 // 全局变量
 })
