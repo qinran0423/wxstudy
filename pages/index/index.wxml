@@ -23,4 +23,9 @@
   <view>
     <button bindtap="gethome">跳转</button>
   </view>
+  <view>
+    <input value="{{value}}" />
+  </view>
+  <custom-components></custom-components>
+
 </view>

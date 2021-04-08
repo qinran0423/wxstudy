@@ -7,6 +7,7 @@ const app = getApp()
 Page({
   data: {
     motto: 'Hello World',
+    value: 'randy',
     username: 'Mick',
     userInfo: {},
     hasUserInfo: false,
@@ -20,11 +21,11 @@ Page({
       url: '../logs/logs'
     })
   },
-  gethome() {
-    console.log('xxx');
-    wx.navigateTo({
-      url: '../home/home'
-    })
+  gethome(event) {
+    console.log(event);
+    // wx.navigateTo({
+    //   url: '../home/home'
+    // })
   },
   onLoad() {
     if (wx.getUserProfile) {
@@ -32,6 +33,8 @@ Page({
         canIUseGetUserProfile: true
       })
     }
+
+    console.log(wx.createSelectorQuery());
   },
   getUserProfile(e) {
     // 推荐使用wx.getUserProfile获取用户信息，开发者每次通过该接口获取用户个人信息均需用户确认，开发者妥善保管用户快速填写的头像昵称，避免重复弹窗
