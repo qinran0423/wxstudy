@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "custom-components": "../../components/custom-components/custom-components"
+    "custom-components": "../../components/custom-components/custom-components",
+    "wrapper": "../../components/wrapper/wrapper"
   }
 }

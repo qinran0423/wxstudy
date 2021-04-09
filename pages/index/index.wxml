@@ -27,5 +27,8 @@
     <input value="{{value}}" />
   </view>
   <custom-components></custom-components>
+  <wrapper inner-text="Some text">
+    <view>大家好</view>
+  </wrapper>
 
 </view>
