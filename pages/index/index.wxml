@@ -27,8 +27,10 @@
     <input value="{{value}}" />
   </view>
   <custom-components></custom-components>
-  <wrapper inner-text="Some text">
-    <view>大家好</view>
+  <wrapper class="my-class" inner-text="Some text" style="background-color: aqua;">
+    <!-- <view slot="top">大家好</view>
+    <view slot="bottom">嘿嘿嘿</view> -->
+    <view>goguoug</view>
   </wrapper>
 
 </view>

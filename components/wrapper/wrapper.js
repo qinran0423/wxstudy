@@ -1,4 +1,10 @@
 Component({
+  options: {
+    multipleSlots: true,
+    addGlobalClass: true,
+    virtualHost: true
+  },
+  externalClasses: ['my-class'],
   properties: {
     innerText: {
       type: String,

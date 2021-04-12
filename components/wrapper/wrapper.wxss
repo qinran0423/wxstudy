@@ -1,0 +1,7 @@
+.btn{
+  background-color: #f66;
+}
+
+.blue-text {
+  color: blue;
+}
